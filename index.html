@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 class="heading-1">ONLINE CODE EDITOR : HTML, CSS, JAVASCRIPT</h1>
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5"></i> HTML</label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+            <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+            <label><i class="fa-brands fa-js"></i>JAVASCRIPT</label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-play"></i>Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <footer>
+        <img src="logo.png" alt="loading failed">
+            <a href="https://github.com/Tanishgupta007" target="_blank" class="f1">GitHub</a>
+            <a href="https://www.linkedin.com/in/Tanishgupta007" target="_blank" class="f2">LinkedIn</a>
+    </footer>
+    <script>
+        function run(){
+            let htmlCode = document.getElementById("html-code").value;
+            let cssCode = document.getElementById("css-code").value;
+            let jsCode = document.getElementById("js-code").value;
+            let output = document.getElementById("output");
+
+            output.contentDocument.body.innerHTML = htmlCode+"<style>"+cssCode+"</style>";
+            output.contentWindow.eval(jsCode);
+
+        }
+    </script>
+</body>
+</html>
