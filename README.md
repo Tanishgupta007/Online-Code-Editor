@@ -22,15 +22,16 @@ Code syntax is highlighted to improve readability and facilitate code understand
 ## Advantages:
 
 * Real-Time Feedback: The integration of a live preview panel provides users with immediate visual feedback on their code output, allowing for quick iteration and troubleshooting.
-Enhanced Efficiency: Users can write, edit, and experiment with HTML, CSS, and JavaScript code within the same interface, eliminating the need to switch between multiple applications or windows.
-User-Friendly Interface: The editor's intuitive design and functionality cater to both beginners and experienced developers, making it accessible to a wide range of users.
-Improved Collaboration: With multiple file support and the ability to work on code in real-time, the online code editor facilitates collaboration among team members, enabling them to code together seamlessly.
-Accessibility: As a web-based application, the editor can be accessed from any device with an internet connection and a web browser, providing users with flexibility and convenience.
-Code Autocompletion: The editor offers autocomplete suggestions, helping users write code more efficiently and reducing the likelihood of syntax errors.
-Versatility: The editor supports HTML, CSS, and JavaScript, making it a versatile tool for various web development projects and tasks.
-Open-Source: Being open-source, the online code editor encourages community contributions and improvements, fostering collaboration and innovation in the development community.
-Scalability: The architecture of the online code editor allows for scalability, making it suitable for small projects as well as large-scale applications with complex codebases.
-Customization: Users can customize the editor's settings and preferences according to their needs and preferences, enhancing their overall coding experience.
+* Enhanced Efficiency: Users can write, edit, and experiment with HTML, CSS, and JavaScript code within the same interface, eliminating the need to switch between multiple applications or windows.
+* User-Friendly Interface: The editor's intuitive design and functionality cater to both beginners and experienced developers, making it accessible to a wide range of users.
+* Improved Collaboration: With multiple file support and the ability to work on code in real-time, the online code editor facilitates collaboration among team members, enabling them to code together seamlessly.
+* Accessibility: As a web-based application, the editor can be accessed from any device with an internet connection and a web browser, providing users with flexibility and convenience.
+* Code Autocompletion: The editor offers autocomplete suggestions, helping users write code more efficiently and reducing the likelihood of syntax errors.
+* Versatility: The editor supports HTML, CSS, and JavaScript, making it a versatile tool for various web development projects and tasks.
+* Open-Source: Being open-source, the online code editor encourages community contributions and improvements, fostering collaboration and innovation in the development community.
+* Scalability: The architecture of the online code editor allows for scalability, making it suitable for small projects as well as large-scale applications with complex codebases.
+* Customization: Users can customize the editor's settings and preferences according to their needs and preferences, enhancing their overall coding experience.
+
 ## Clone the repository to your local machine.
 Open the index.html file in your preferred web browser.
 
