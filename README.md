@@ -8,13 +8,20 @@ This project presents the development of an innovative online code editor tailor
 
 ## Features:
 
-### Code Editing: Users can write, edit, and delete HTML, CSS, and JavaScript code directly within the web application.
-### Real-Time Preview: The editor provides a live preview panel that dynamically updates to reflect changes made in the code editor. Users can see the immediate impact of their code modifications.
-### Syntax Highlighting: Code syntax is highlighted to improve readability and facilitate code understanding.
+### Code Editing:
+Users can write, edit, and delete HTML, CSS, and JavaScript code directly within the web application.
+
+### Real-Time Preview: 
+The editor provides a live preview panel that dynamically updates to reflect changes made in the code editor. Users can see the immediate impact of their code modifications.
+
+### Syntax Highlighting: 
+Code syntax is highlighted to improve readability and facilitate code understanding.
 
 ## Clone the repository to your local machine.
-### Open the index.html file in your preferred web browser.
-### Start coding! Write, edit, and experiment with HTML, CSS, and JavaScript code in real-time. The live preview panel will update dynamically to reflect your changes.
+Open the index.html file in your preferred web browser.
+
+Start coding! Write, edit, and experiment with HTML, CSS, and JavaScript code in real-time. The live preview panel will update dynamically to reflect your changes.
+
 ## Contributing:
 We welcome contributions from the community to enhance the functionality and usability of the online code editor. If you have ideas for new features or improvements, feel free to submit a pull request or open an issue on GitHub.
 
